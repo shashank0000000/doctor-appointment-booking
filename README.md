@@ -85,4 +85,8 @@ npm start
 Start admin panel:
 cd admin
 npm start
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 152e30d1a11aa3bb53b718ceda147d8c7b2c8182
