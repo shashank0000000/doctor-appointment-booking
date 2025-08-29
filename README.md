@@ -46,9 +46,9 @@ Built using **MERN stack (MongoDB, Express.js, React, Node.js)** with three main
 ```bash
 git clone https://github.com/shashank0000000/doctor-appointment-booking.git
 cd doctor-appointment-booking
-
+```
 ### 2. Install Dependencies
-
+```bash
 For backend:
 cd backend
 npm install
@@ -60,9 +60,9 @@ npm install
 For admin panel:
 cd admin
 npm install
-
+```
 ### 3. Configure environment variables
-
+```bash
 Create .env in backend with:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
@@ -71,9 +71,9 @@ RAZORPAY_KEY_SECRET=your_razorpay_key_secret
 
 Create .env in frontend and admin with:
 REACT_APP_BACKEND_URL=http://localhost:5000
-
+```
 ### 4. Run the project
-
+```bash
 Start backend:
 cd backend
 npm run dev
@@ -85,3 +85,4 @@ npm start
 Start admin panel:
 cd admin
 npm start
+```
